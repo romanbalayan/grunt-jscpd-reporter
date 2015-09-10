@@ -35,5 +35,5 @@ module.exports = function (grunt) {
     grunt.loadTasks('tasks');
 
     // Default task.
-    grunt.registerTask('default', ['grunt-jscpd-reporter']);
+    grunt.registerTask('default', ['jscpd-reporter']);
 };

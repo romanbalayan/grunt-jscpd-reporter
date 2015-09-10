@@ -1,11 +1,18 @@
 <div class="items">
     <h2>Duplicate {{itemCounter}}</h2>
-    <p class="lines"><strong>Lines total:</strong> {{lines}}</p>
-    <p class="tokens"><strong>Tokens:</strong> {{tokens}}</p>
+    <h3>Summary</h3>
+      <p class="lines"><span class='tabber'></span><strong>Number of lines:</strong> {{lines}}</p>
+      <p class="tokens"><span class='tabber'></span><strong>Tokens:</strong> {{tokens}}</p>
+      <p class="filelabel"><span class='tabber'></span><strong>File Sources:</strong></p>
     <ul class="files">
         {{files}}
     </ul>
-    <pre>
-        {{codeFragment}}
-    </pre>
+    <div>
+      <h3>Code Snippet</h3>
+      <pre>
+        <code class='language-javascript'>
+          {{codeFragment}}
+        </code>
+      </pre>
+    </div>
 </div>

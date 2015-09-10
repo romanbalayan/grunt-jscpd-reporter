@@ -12,17 +12,31 @@
  */
 
 html, body { font-family:"Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial }
+body { padding: 0 40px;}
 
+.items {
+  padding-top:10px;
+}
 .lines {}
 
+/*pre {
+  overflow: auto;
+  border-radius: 0.3em;
+  max-height:30em;
+}
+*/
 ul { list-style-type: none; margin:0; padding:0; }
-ul li { margin:0; padding:0; }
+ul li { margin:0; padding-top:0; }
 
-ul.files li p.filepath { padding:1em 0em 0em 0em; margin:0; }
-ul.files li p.line { padding:0em 0em 0em 1em; margin:0; }
+ul.files li p.filepath { padding:0em 0em 0em 0em; margin:0; }
+ul.files li p.line { padding:0em 0em 0em 0em; margin:0; }
 
-
+h1, hr { margin-bottom: 0px;}
 h2 { background: #ECEDF7; padding:5px; }
+
+.tabber { display:inline-block; width: 40px; }
+.tabberdouble { display:inline-block; width: 80px; }
 
 p.lines { margin:1em 0em 0em 0em; padding:0; }
 p.tokens { margin:0; padding:0; }
+p.filelabel { margin:0; padding:0; }
