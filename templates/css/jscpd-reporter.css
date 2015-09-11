@@ -19,16 +19,10 @@ body { padding: 0 40px;}
 }
 .lines {}
 
-/*pre {
-  overflow: auto;
-  border-radius: 0.3em;
-  max-height:30em;
-}
-*/
 ul { list-style-type: none; margin:0; padding:0; }
 ul li { margin:0; padding-top:0; }
 
-ul.files li p.filepath { padding:0em 0em 0em 0em; margin:0; }
+ul.files li p.filepath { padding:0.25em 0em 0em 0em; margin:0; }
 ul.files li p.line { padding:0em 0em 0em 0em; margin:0; }
 
 h1, hr { margin-bottom: 0px;}

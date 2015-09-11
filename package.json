@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/linslin/grunt-jscpd-reporter/issues"
   },
-  "homepage": "https://github.com/linslin/grunt-jscpd-reporter"
+  "homepage": "https://github.com/linslin/grunt-jscpd-reporter",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
 }

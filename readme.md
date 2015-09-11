@@ -48,6 +48,8 @@ Configure sourceFile and outputDir in grunt.initConfig();
     jscpdreporter: {
         options: {
             sourcefile: '<grunt-jscpd>/output.xml',
-            outputDir: 'report/'
+            outputDir: 'report/',
+            highlighter: ['nsh' or 'prism'],  (defaults to nsh)
+            style: ['default', 'dark', 'twilight', 'funky', 'tomorrow', 'okaidia'] (defaults to default)
         }
     }

@@ -26,7 +26,9 @@ module.exports = function (grunt) {
             src : ['Gruntfile.js', 'tasks/*.js'],
             options: {
                 sourcefile: 'mocks/output.xml',
-                outputDir: 'report/'
+                outputDir: 'report/',
+		highlighter: 'nsh',
+		style: 'tomorrow'
             }
         }
     });

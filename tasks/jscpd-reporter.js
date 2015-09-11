@@ -256,6 +256,10 @@ module.exports = function(grunt) {
          * Handler for creating nsh css files
          */
         function prepareNSHAssets() {
+            mkdirp.sync(process.cwd() + '/' + config.options.outputDir + 'css/', function(err){
+                console.log(err);
+            });
+
             fs.writeFileSync(process.cwd() + '/' + config.options.outputDir + 'css/default.css',
                 fs.readFileSync(path.join(__dirname) + '/../node_modules/node-syntaxhighlighter/lib/styles/shCoreDefault.css').toString()
                 + fs.readFileSync(path.join(__dirname) + '/../node_modules/node-syntaxhighlighter/lib/styles/shCore.css').toString()
